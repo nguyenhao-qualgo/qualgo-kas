@@ -5,7 +5,7 @@ repos:
   uav-qualgo:
     url: git@github.com:uneycom/uav-yocto-build.git
     path: repos/uav-qualgo
-    branch: dev_boot-over-eth
+    branch: dev-fix-build-and-pxe-docs
     layers:
       poky/meta-edk2:
       poky/meta-skytrack-kernel:
