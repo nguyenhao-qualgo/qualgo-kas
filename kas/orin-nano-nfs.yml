@@ -5,7 +5,6 @@ header:
     - kas/include/tegra.yml
     - kas/include/swupdate.yml
     - kas/include/ros.yml
-#    - kas/include/qualgo.yml
 
 distro: tegrademo
 machine: jetson-orin-nano-devkit-nvme

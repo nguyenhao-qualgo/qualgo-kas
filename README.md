@@ -12,8 +12,10 @@ pipx install kas
 ## Demo Projects
 
 ### Build
-
-kas build --update kas/jetson-orin-nano-devkit-nvme.yml
+```
+kas build --update kas/orin-nano-qualgo # Production build
+kas build --update kas/orin-nano-nfs # Developement build
+```
 
 ### Output Artifacts
 Once the build completes, all deployable files are located at: build/tmp/deploy/images/jetson-orin-nano-devkit-nvme/
