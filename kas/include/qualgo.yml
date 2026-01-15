@@ -5,11 +5,12 @@ repos:
   uav-qualgo:
     url: git@github.com:uneycom/uav-yocto-build.git
     path: repos/uav-qualgo
-    branch: dev-fix-build-and-pxe-docs
+    branch: uav-817-using-edk2-nvidia-to-build-our-app
     layers:
       poky/meta-edk2:
       poky/meta-skytrack-kernel:
       poky/meta-skytrack-secureboot:
+      poky/meta-edk2-nvidia:
 
   meta-rtlwifi:
     path: repos/meta-rtlwifi
@@ -47,4 +48,4 @@ local_conf_header:
 
     IMAGE_INSTALL:remove = " dropbear"
 
-    IMAGE_INSTALL:append = " edk2-bootloader-firmware uefi1-prebuilt"
+    IMAGE_INSTALL:append = " uefi1-prebuilt"

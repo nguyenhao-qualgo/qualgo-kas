@@ -10,7 +10,7 @@ header:
 distro: tegrademo
 machine: jetson-orin-nano-devkit-nvme
 target:
-  - demo-image-base
+  - swupdate-image-tegra
 
 defaults:
   repos:
